@@ -72,7 +72,7 @@ def predict():
     data = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(36)
     return data.to_json(orient='records', date_format='iso')
 
-app.run(debug=False, host='0.0.0.0', port=3000)
+app.run(debug=False, host='206.189.69.98', port=80)
 
 
 
