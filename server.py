@@ -42,4 +42,4 @@ def predict():
   return data.to_json(orient='records', date_format='iso')
 
 if __name__ == "__main__":
-    app.run(debug=False, host='localhost', port=3000)
+    app.run(debug=False, host='0.0.0.0', port=3000)
