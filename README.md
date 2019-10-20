@@ -1,4 +1,4 @@
-# beat-the-crowd-umass-model
+# Beat-the-crowd-umass-model
 Scripts for collection ML data and building model
 Description as a Tweet:
 We've developed a mobile application that leverages machine learning to predict dining common busy-ness and identify student dining habits, for use by students and UMass Dining in minimizing crowds and food waste.
