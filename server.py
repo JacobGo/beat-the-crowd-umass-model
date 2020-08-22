@@ -9,6 +9,9 @@ from datetime import datetime
 from fbprophet import Prophet
 from matplotlib import pyplot
 
+def contri(p):
+    return p
+
 #This function is the one that removes all the invalid data points that helps us refine the train and test data that 
 # helps us improve the accuracy of the prophet time series prediction model. This function makes sure that the model
 # only trains on data points that are in the timestamps where the dinning commons is open. 
@@ -96,4 +99,6 @@ def predict():
     return data.to_json(orient='records', date_format='iso')
 
 app.run(debug=False, host='0.0.0.0', port=5000)
+
+
 
